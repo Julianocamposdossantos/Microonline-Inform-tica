@@ -1,0 +1,304 @@
+.logo_contabilidade {
+	width: 3rem;
+	padding: 0;
+	border-radius: 20%; 
+}
+
+.burguer {
+	color: white;
+	margin-right: 15px;
+	margin-bottom: -.5rem;
+}
+
+.img-contabilidade {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.links_espacamento {
+	margin: 10px;
+}
+
+.background-navbar {
+	background-color: #0d5b80;
+}
+
+.color_link {
+	font-size: 20px;
+	font-family: 'Pacifico';
+	text-decoration: none; 
+	color: white!important;
+}
+
+@media screen and (min-width: 200px) {
+
+	.nav_espacamento {
+		display: flex;
+		justify-content: center;
+	}
+
+	.menu_mobile {
+		align-items: center;
+	}
+
+	.title {
+		padding: 1rem; 
+		text-align: center;
+	}
+
+	.icons_contabilidade {
+		width: 70px;
+		position: absolute;
+	}
+
+	.texto_icons {
+		margin-left: 70px;
+	}
+
+	.bold {
+		margin: 1em;
+	}
+
+
+	.img__logo {
+		margin-top: 7px;
+		display: inline-block;
+	}
+
+	.contato{
+		display: inline-block;
+		margin-top: 30px;
+	}
+
+	.logo_micro2 {
+		margin-bottom: 25px;
+		width: 15em; 
+		padding: 2em; 
+	}
+
+	.beneficios {
+		padding: 1em;
+	}
+
+	.inputs_checkbox {
+		margin: 5px; 
+	}
+
+	#btn {
+		background-color: #d4c719!important;
+		width: 100%;
+		margin-top: 20px;
+		height: 40px;
+	}
+
+	.titulo_form {
+		padding-top: 1em;
+		text-align: center; 
+	}
+
+
+	/*CARD--2*/
+
+	.card_2 {
+		padding: 3em;
+		display: table;
+	}
+
+	.title2 {
+		text-align: center;
+		margin-top: 200px;
+	}
+
+	.logo_footer {
+		display: none;
+	}
+
+	.icon_sociais {
+		width: 2rem;
+		margin: 0 2rem;
+	}
+
+	
+	.footer_icons {
+		display: flex;
+		justify-content: center;
+	}
+
+	footer {
+		width: 100%;
+		padding-block: 2rem;
+		margin-top: 2rem;
+		background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjfR9oKqCzWTrqTgGEq53AlGoo-eAF288Cd_Q25_IsBLmQq3wdK7RZCg0bnX7v2w4Mlgs&usqp=CAU');
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+	
+	.background-navbar {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.navbar-collapse {
+		flex-grow: 0!important
+	}
+
+	.title {
+		padding: .5em;
+		font-size: 23px;
+		margin-left: -20px;
+		font-family: 'Pacifico';
+	}
+
+	.subtitle {
+		color: #696112;
+		font-weight: bold; 
+	}
+
+	.beneficios {
+		padding: 1em;
+	}
+
+	.icons_contabilidade {
+		width: 4em;
+		position: absolute;
+	}
+
+	.texto_icons {
+		margin-left: 90px;
+	}
+
+	.bold {
+		padding: 1em;
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	form {
+		max-width: 500px;
+	}
+
+	.titulo_form {
+		margin: 2em;
+		margin-left: 1em;
+	}
+
+	.h2 { 
+		margin-left: 54px;
+	}
+
+	.h4 {
+		margin-left: 90px: 
+	}
+
+	.preço {
+		margin-left: 40px; 
+		font-size: 23px;
+		font-weight: bold;
+	}	
+
+	.preço:nth-child(2) {
+		margin-left: 90px;
+	}
+
+
+	.input {
+		margin: 1em;
+	}
+
+	label {
+		margin: 5px;
+	}
+
+	.inputs_checkbox {
+		padding: 1em; 
+	}
+
+	#btn {
+		background-color: #d4c719!important;
+		width: 100%;
+		height: 40px;
+	}
+
+	.logo_micro2 {
+		margin-top: -125px;
+		width: 15em; 
+		padding: 2em; 
+	}
+
+	.img__logo {
+		margin-top: 7px;
+		display: inline-block;
+	}
+
+	.contato{
+		display: inline-block;
+		margin-top: 30px;
+	}
+
+	/*CARD---2*/
+
+	.card_2 {
+		padding: 0px;
+		display: table;
+	}
+
+
+	.title2 {
+		margin-top: 45px;
+		position: absolute;
+	}
+
+	.img-tecnico {
+		margin-left: -23px;
+		padding: 1em; 
+		width: 150%;
+		height: 10%;
+	}
+
+	.img-tecnico:hover {
+		opacity: 80%;
+	}
+
+	.width {
+		width: 110%;
+	}
+
+
+	.icon_sociais {
+		width: 3em!important;
+		margin: 1rem 5rem 0 0; 
+	}
+
+	.logo_footer {
+		display: block;
+		width: 13em;
+	}
+
+	.footer_icons {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer_icons {
+	display: flex;
+}
+
+footer {
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjfR9oKqCzWTrqTgGEq53AlGoo-eAF288Cd_Q25_IsBLmQq3wdK7RZCg0bnX7v2w4Mlgs&usqp=CAU');
+}*/
